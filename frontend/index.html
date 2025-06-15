@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Information System</title>
+</head>
+<body>
+  <h1>Customer Management</h1>
+
+  <h3>Add Customer</h3>
+  <input type="text" id="name" placeholder="Name">
+  <input type="email" id="email" placeholder="Email">
+  <input type="text" id="phone" placeholder="Phone">
+  <button onclick="addCustomer()">Add</button>
+
+  <h3>Customer List</h3>
+  <table border="1">
+    <thead>
+      <tr><th>ID</th><th>Name</th><th>Email</th><th>Phone</th><th>Actions</th></tr>
+    </thead>
+    <tbody id="customerTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
